@@ -1,0 +1,96 @@
+ h1  {}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+body {
+
+   color: gold;
+   font-size: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+
+   /* this is box sizes */
+
+box-sizing: border-box;
+padding-top: 10px;
+padding-right: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+background-image: url("Were-lighting-up-the-night-skyline-in-New-Bailey-Manchester.jpg");
+/* this stops image repat on background */
+/* background size  cover to fit screen */
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+h1{
+    color: chartreuse;
+}
+/* below is where you would move the image */
+/* .image_link */
+.image_link {
+
+    display: flex;
+    justify-content: center;
+    }
+    
+
+
+
+
+    /* purple writng white */
+ .second_para {
+
+    color: white;
+    background-color: white;
+    font-family: 'Fascinate', cursive;
+    -ms-flex-align: center;
+}
+
+ /* blue green text */
+ .khalid{
+
+    /* padding is space within borders between paragraph */
+    /* margin is space around the border */
+    color: white;
+    ;
+    margin-top: 300px;
+    margin-bottom: 500px;
+    margin-left: 500px;
+    margin-right: 500px;
+ }
+
+
+ /*  */
+ .third_para {
+
+color: blue;
+background-color: chocolate;
+margin: 500px;
+
+ }
+
+ a{
+
+    color: aliceblue;
+ }
+
+
+.nav_container {
+    display: flex;
+    color: red;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.nav_item{
+    box-sizing: border-box;
+    background-color:white;
+    color: crimson;
+    border-radius: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
