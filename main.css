@@ -76,7 +76,7 @@ margin: 500px;
  }
 
 
-.nav_container {
+#nav_container {
     display: flex;
     color: red;
     flex-direction: row;
